@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62,5%;
+  --ff-text: 1rem;
+  --ff-header-primary: 1.6rem;
+  --ff-button-primary: 2.0rem;
+  --bg-text: #C4C4CC;
+  --bg-header:#fff;
+  --bg-nav:#fff;
+}
+
+body{
+  width: 100%;
+  background-image: url("../img/galaxy.jpg");
+}
+
+.main{
+  display:grid;
+  grid-columns: 1fr;
+  max-width:3.5rem;
+  color: var(--bg-header);
+  font-size:var(--ff-header-primary);
+}
+
+.nav{
+  margin: 4.0rem 2.0rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  font-size: var(--ff-text);
+  line-height:var(--ff-text);
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav a{
+  color: var(--bg-nav)
+}
+
+.nav a:hover{
+  color: var(--bg-text)
+}
+
+
+a{
+  align-items: center;
+  text-decoration: none;
+}
+
+header h1{
+  margin: 5.0rem 2.5rem;
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;  
+}
+
+section p{
+  color: var(--bg-text);
+  font-size: var(--ff-text);
+  margin: 2.5rem 2.0rem;
+  text-align: center;
+}
+
+div{
+  margin: 2.5rem ;
+}
+
+button {
+  background-color: #01172E;
+  border: none;
+  border-radius: 4px ;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size:var(--ff-text:);
+  margin: 4px 2px;
+  cursor: pointer;
+}
