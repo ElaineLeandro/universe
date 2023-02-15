@@ -7,7 +7,7 @@
 :root{
   font-size: 62,5%;
   --ff-text: 1rem;
-  --ff-header-primary: 1.6rem;
+  --ff-nav-desktop: 1.6rem;
   --ff-button-primary: 2.0rem;
   --bg-text: #C4C4CC;
   --bg-header:#fff;
@@ -16,15 +16,45 @@
 
 body{
   width: 100%;
-  background-image: url("../img/galaxy.jpg");
+  background-image: url("../img/lua.png");
 }
 
-.main{
+.container{
   display:grid;
   grid-columns: 1fr;
   max-width:3.5rem;
   color: var(--bg-header);
-  font-size:var(--ff-header-primary);
+  font-size:var(--ff-nav-desktop);
+}
+
+@media (min-width: 80.0rem) {
+  .container{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1r;
+    margin: 0 auto;
+    color: green !important;
+  }
+  .nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 30px !important;
+    color: green !important;
+  }
+
+  h1{
+    width: 10.75rem 27.5rem 1.5rem;
+    display: grid;
+    grid: row;
+    align-items: center;
+    background-color: red !important;
+  }
+
+ 
+
+
+  
 }
 
 .nav{
