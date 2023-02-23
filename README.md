@@ -1,6 +1,6 @@
 # universe
 
-Projeto Front-end desenvolvido durante a semana Spring promovida pela instituição Rocketseat e a trilha do explorer.
+Projeto Front-end desenvolvido durante a semana Spring promovida pela instituição Rocketseat.
 
 
 Explorer - stage 6
